@@ -1,0 +1,12 @@
+/* src/fonts.css */
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('./fonts/SpaceMono-Bold.ttf') format('truetype');
+    font-weight: Bold;
+    font-style: normal;
+  }
+
+  /* Header.css */
+.header-title {
+    font-family: 'SpaceMono', monospace; /* Change this to your desired font family */
+  }
