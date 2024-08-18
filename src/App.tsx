@@ -3,10 +3,6 @@ import HiCard from "./components/HiCard";
 import InfoCard from "./components/InfoCard";
 import InstructionsCard from "./components/InstructionsCard";
 
-import { Alert, AlertDescription, AlertTitle } from "./components/ui/alert";
-import { Toaster } from "./components/ui/sonner";
-import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
 import TwitterLike from "./components/TwitterLike";
 
 const App = () => {
