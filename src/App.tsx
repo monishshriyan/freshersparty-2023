@@ -18,6 +18,7 @@ const App = () => {
           fontFamily: "JetBrains Mono",
         }}
         speed={150}
+        autoFill={true}
       >
         THE PARTY IS OVER, THANKS FOR BEING THERE!( ˶ˆᗜˆ˵ )
       </Marquee>
