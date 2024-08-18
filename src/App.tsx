@@ -7,6 +7,7 @@ import { Alert, AlertDescription, AlertTitle } from "./components/ui/alert";
 import { Toaster } from "./components/ui/sonner";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
+import TwitterLike from "./components/TwitterLike";
 
 const App = () => {
   return (
@@ -25,12 +26,7 @@ const App = () => {
               participants before each game:"
       />
       {/* alert boxes */}
-      <div>
-        <Toaster position="top-center" />
-        <Button className="dark" onClick={() => toast("My first toast")}>
-          Give me a toast
-        </Button>
-      </div>
+      <TwitterLike />
     </div>
   );
 };

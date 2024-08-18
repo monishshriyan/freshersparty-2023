@@ -1,0 +1,48 @@
+/* .App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.heart-icon {
+  background: url("assets/heart.png");
+  background-position: left;
+  background-size: cover;
+  cursor: pointer;
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+}
+
+.heart-bg {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 100ms ease;
+}
+
+.likes-amount {
+  font-size: 20px;
+  position: fixed;
+  bottom: 50px; /* Adjust this value based on the size of the heart icon */
+  right: 20px;
+  color: white; /* Adjust color as needed */
+}
+
+.heart-icon.liked {
+  animation: like-anim 0.9s steps(28) forwards;
+}
+
+@keyframes like-anim {
+  to {
+    background-position: right;
+  }
+}
+
+.likes-amount.liked {
+  color: red;
+}
