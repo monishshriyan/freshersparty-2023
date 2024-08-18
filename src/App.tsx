@@ -2,7 +2,6 @@ import Header from "./components/Header";
 import HiCard from "./components/HiCard";
 import InfoCard from "./components/InfoCard";
 import InstructionsCard from "./components/InstructionsCard";
-
 import TwitterLike from "./components/TwitterLike";
 
 const App = () => {
@@ -21,7 +20,7 @@ const App = () => {
               general rules and instructions that you can communicate to the
               participants before each game:"
       />
-      {/* alert boxes */}
+      {/* like button */}
       <TwitterLike />
     </div>
   );
