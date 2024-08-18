@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../TwitterLike.css";
+import "./TwitterLike.css";
 import { toast, Toaster } from "sonner";
 
 const TwitterLike = () => {
