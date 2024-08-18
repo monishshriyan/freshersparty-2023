@@ -109,3 +109,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+.sticky-icky {
+  position: fixed;
+  top: 0;
+  z-index: 1000; /* Ensure it stays above other content */
+}

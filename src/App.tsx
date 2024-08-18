@@ -3,10 +3,24 @@ import HiCard from "./components/HiCard";
 import InfoCard from "./components/InfoCard";
 import InstructionsCard from "./components/InstructionsCard";
 import TwitterLike from "./components/TwitterLike";
+import Marquee from "react-fast-marquee";
 
 const App = () => {
   return (
     <div className="flex flex-col gap-5 items-center justify-center min-h-screen min-w-screen bg-black">
+      <Marquee
+        className="sticky-icky"
+        style={{
+          backgroundColor: "white",
+          color: "black",
+          padding: "10px",
+          fontSize: "20px",
+          fontFamily: "JetBrains Mono",
+        }}
+        speed={150}
+      >
+        THE PARTY IS OVER, THANKS FOR BEING THERE!( ˶ˆᗜˆ˵ )
+      </Marquee>
       <Header text="FRESHERS PARTY 2023" />
       <HiCard />
       <InfoCard />
