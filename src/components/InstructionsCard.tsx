@@ -10,8 +10,8 @@ const InstructionsCard: React.FC<InstructionsCardProps> = ({
   para2,
 }) => {
   return (
-    <div className="flex flex-col items-center justify-center gap-5">
-      <div className="flex flex-col gap-5 items-center justify-center p-10 w-96 rounded-[1.8rem] bg-[#151515] border-zinc-800 border-[0.05rem] ">
+    <div className="w-[80%] max-w-96 flex flex-col items-center justify-center gap-5">
+      <div className=" flex flex-col gap-5 items-center justify-center p-10 rounded-[1.8rem] bg-[#151515] border-zinc-800 border-[0.05rem] ">
         {heading && (
           <h1 className="text-gray-100 font-bold text-4xl">{heading}</h1>
         )}

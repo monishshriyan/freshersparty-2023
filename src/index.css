@@ -78,3 +78,30 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient-text {
+  background: linear-gradient(
+    270deg,
+    #ff007f,
+    #7f00ff,
+    #007fff,
+    #000000,
+    #ffffff
+  );
+  background-size: 700% 700%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 6s ease-in-out infinite;
+}

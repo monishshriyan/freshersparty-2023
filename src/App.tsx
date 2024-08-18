@@ -7,7 +7,7 @@ import TwitterLike from "./components/TwitterLike";
 
 const App = () => {
   return (
-    <div className="flex flex-col gap-5 items-center justify-center min-h-screen bg-black">
+    <div className="flex flex-col gap-5 items-center justify-center min-h-screen min-w-screen bg-black">
       <Header text="FRESHERS PARTY 2023" />
       <HiCard />
       <InfoCard />

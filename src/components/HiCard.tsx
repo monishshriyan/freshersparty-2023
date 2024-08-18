@@ -1,9 +1,9 @@
 import backgroundImage from "../assets/hi-background.jpg";
-
+import "./HiCard.css";
 const HiCard = () => {
   return (
     <div
-      className="w-96 h-52 rounded-[1.8rem] relative overflow-hidden"
+      className="w-[80%] max-w-96 h-52 rounded-[1.8rem] relative overflow-hidden"
       style={{
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: "cover", // Adjusted to 'contain'
