@@ -6,7 +6,7 @@
 } */
 
 .heart-icon {
-  background: url("assets/heart.png");
+  background: url("../assets/heart.png");
   background-position: left;
   background-size: cover;
   cursor: pointer;
