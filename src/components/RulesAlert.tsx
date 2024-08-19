@@ -23,7 +23,7 @@ export function RulesAlert() {
           Check out the rules
         </Button>
       </AlertDialogTrigger>
-      <AlertDialogContent className="w-[90%] max-w-94 rounded-lg ">
+      <AlertDialogContent className="w-[90%] rounded-lg ">
         <AlertDialogHeader>
           <AlertDialogTitle>Rules for the party</AlertDialogTitle>
           <AlertDialogDescription>
