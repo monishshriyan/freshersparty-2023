@@ -1,4 +1,3 @@
-import CardInteract from "./components/CardInteract";
 import Header from "./components/Header";
 import HiCard from "./components/HiCard";
 import InfoCard from "./components/InfoCard";
@@ -7,7 +6,6 @@ import RulesAlert from "./components/RulesAlert";
 import TwitterLike from "./components/TwitterLike";
 import Marquee from "react-fast-marquee";
 import { ThemeProvider } from "./components/ui/theme-provider";
-import { toast, Toaster } from "sonner";
 
 const App = () => {
   return (
@@ -45,7 +43,6 @@ const App = () => {
         />
         {/* like button */}
         <TwitterLike />
-        {/* <CardInteract /> */}
       </div>
     </ThemeProvider>
   );
