@@ -18,7 +18,7 @@ export function RulesAlert() {
       <AlertDialogTrigger asChild>
         <Button
           variant="default"
-          className="fixed bottom-14 left-1/2 transform -translate-x-1/2 z-50 rounded-full h-12"
+          className="fixed left-1/2 transform -translate-x-1/2 z-50 rounded-full h-12"
         >
           Check out the rules
         </Button>

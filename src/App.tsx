@@ -40,14 +40,13 @@ const App = () => {
               general rules and instructions that you can communicate to the
               participants before each game:"
         />
-        {/* like button */}
-        <div className="fixed bottom-14 left-0 w-full min-h-100 bg-gradient-to-t from-zinc-950 to-transparent z-40 flex justify-center items-center">
+        <div className="fixed bottom-12 left-0 w-full min-h-100 z-40 flex justify-center items-center">
           <div className="flex flex-row space-x-56 z-100">
             <RulesAlert />
             <TwitterLike />
           </div>
         </div>
-        <div className="fixed bottom-0 left-0 w-full h-60 bg-gradient-to-t from-zinc-950 to-transparent z-10"></div>
+        <div className="fixed bottom-0 left-0 w-full h-60 bg-gradient-to-t from-black to-transparent z-10"></div>
       </div>
     </ThemeProvider>
   );

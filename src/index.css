@@ -93,17 +93,21 @@
 
 .animated-gradient-text {
   background: linear-gradient(
-    270deg,
-    #ff007f,
-    #7f00ff,
-    #007fff,
-    #000000,
-    #ffffff
+    90deg,
+    #fff 0%,
+    #6284ff 35.42%,
+    #f00 64.58%,
+    #fff 100%
   );
-  background-size: 700% 700%;
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradient 6s ease-in-out infinite;
+
+  animation: shine 1s linear infinite;
 }
 
 html {
@@ -113,4 +117,10 @@ html {
 .sticky-icky {
   position: fixed;
   top: 0; /* Ensure it stays above other content */
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
 }
