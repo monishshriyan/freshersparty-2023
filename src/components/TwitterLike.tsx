@@ -10,19 +10,16 @@ const TwitterLike = () => {
     if (likeCount === 0) {
       setLikeCount((prevCount) => {
         const newCount = prevCount + 1;
-        toast.success(
-          `Thanks! you liked my work. ${newCount} likes and counting (＾▽＾)`,
-          {
-            style: { fontFamily: "Inter", fontSize: "1rem" },
-          }
-        );
+        toast.success(`Thanks! you liked my work. (＾▽＾)`, {
+          style: { fontFamily: "Inter", fontSize: "1rem" },
+        });
         return newCount;
       });
       setLiked(true);
     } else {
       setLikeCount((prevCount) => {
         const newCount = prevCount - 1;
-        toast.error(`You unliked the post! (╥﹏╥)`, {
+        toast.error(`! !(╥﹏╥) ! !`, {
           style: { fontFamily: "Inter", fontSize: "1rem" },
         });
         return newCount;
