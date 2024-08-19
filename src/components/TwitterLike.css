@@ -11,8 +11,6 @@
   background-size: cover;
   cursor: pointer;
   position: fixed;
-  bottom: 50px;
-  right: 20px;
 }
 
 .heart-bg {
@@ -25,13 +23,13 @@
   transition: all 100ms ease;
 }
 
-.likes-amount {
+/* .likes-amount {
   font-size: 20px;
   position: fixed;
-  bottom: 50px; /* Adjust this value based on the size of the heart icon */
+  bottom: 50px; 
   right: 20px;
-  color: white; /* Adjust color as needed */
-}
+  color: white; 
+} */
 
 .heart-icon.liked {
   animation: like-anim 0.9s steps(28) forwards;

@@ -112,6 +112,5 @@ html {
 
 .sticky-icky {
   position: fixed;
-  top: 0;
-  z-index: 1000; /* Ensure it stays above other content */
+  top: 0; /* Ensure it stays above other content */
 }

@@ -16,9 +16,14 @@ export function RulesAlert() {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button variant="outline">Show Dialog</Button>
+        <Button
+          variant="default"
+          className="fixed bottom-14 left-1/2 transform -translate-x-1/2 z-50 rounded-full h-12"
+        >
+          Check out the rules
+        </Button>
       </AlertDialogTrigger>
-      <AlertDialogContent className="w-[90%] max-w-94 rounded-lg">
+      <AlertDialogContent className="w-[90%] max-w-94 rounded-lg ">
         <AlertDialogHeader>
           <AlertDialogTitle>Rules for the party</AlertDialogTitle>
           <AlertDialogDescription>

@@ -6,13 +6,14 @@ import InstructionsCard from "./components/InstructionsCard";
 import TwitterLike from "./components/TwitterLike";
 import Marquee from "react-fast-marquee";
 import { ThemeProvider } from "./components/ui/theme-provider";
+import RulesAlert from "./components/RulesAlert";
 
 const App = () => {
   return (
     <ThemeProvider defaultTheme="dark">
       <div className="dark flex flex-col gap-5 items-center justify-center min-h-screen min-w-screen bg-black">
         <Marquee
-          className="sticky-icky"
+          className="sticky-icky z-9 h-10"
           style={{
             backgroundColor: "white",
             color: "black",
@@ -27,9 +28,7 @@ const App = () => {
         </Marquee>
         <Header text="FRESHERS PARTY 2023" />
         <HiCard />
-        {/*         <div className="relative">
-          <RulesAlert />
-        </div> */}
+
         <InfoCard />
         <Header text="2nd Sept Room 29" className="alt-header text-9xl" />
 
@@ -42,7 +41,13 @@ const App = () => {
               participants before each game:"
         />
         {/* like button */}
-        <TwitterLike />
+        <div className="fixed bottom-14 left-0 w-full min-h-100 bg-gradient-to-t from-zinc-950 to-transparent z-40 flex justify-center items-center">
+          <div className="flex flex-row space-x-56 z-100">
+            <RulesAlert />
+            <TwitterLike />
+          </div>
+        </div>
+        <div className="fixed bottom-0 left-0 w-full h-60 bg-gradient-to-t from-zinc-950 to-transparent z-10"></div>
       </div>
     </ThemeProvider>
   );
