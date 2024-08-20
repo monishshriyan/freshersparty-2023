@@ -10,7 +10,7 @@
   background-position: left;
   background-size: cover;
   cursor: pointer;
-  position: fixed;
+  /* position: fixed; */
 }
 
 .heart-bg {

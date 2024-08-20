@@ -16,10 +16,7 @@ export function RulesAlert() {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button
-          variant="default"
-          className="fixed left-1/2 transform -translate-x-1/2 z-50 rounded-full h-12"
-        >
+        <Button variant="default" className="rounded-full h-12">
           Check out the rules
         </Button>
       </AlertDialogTrigger>
@@ -30,7 +27,7 @@ export function RulesAlert() {
             <ol className="list-inside list-decimal">
               <li>Be respectful of everyone's performances.</li>
               <li>Abide by the decisions of the game coordinator.</li>
-              <li>Maintain a friendly and sportsman like attitude.</li>
+              <li>Maintain a friendly and sportsmanlike attitude.</li>
             </ol>
           </AlertDialogDescription>
         </AlertDialogHeader>
