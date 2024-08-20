@@ -7,7 +7,7 @@ import TwitterLike from "./components/TwitterLike";
 import Marquee from "react-fast-marquee";
 import { ThemeProvider } from "./components/ui/theme-provider";
 import RulesAlert from "./components/RulesAlert";
-import { motion, stagger } from "framer-motion";
+import { motion } from "framer-motion";
 
 const App = () => {
   return (
