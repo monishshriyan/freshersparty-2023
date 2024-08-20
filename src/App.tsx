@@ -53,7 +53,7 @@ const App = () => {
             initial={{ opacity: 0, y: "1rem" }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.75, ease: "circInOut", delay: 1.5 }}
-            className="flex flex-row space-x-6 z-100"
+            className="flex flex-row space-x-2 z-100"
           >
             <RulesAlert />
             <TwitterLike />

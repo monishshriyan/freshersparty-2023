@@ -30,25 +30,16 @@ const TwitterLike = () => {
   };
 
   return (
-    <div>
-      <Toaster
-        richColors
-        position="top-center"
-        toastOptions={{
-          style: { fontFamily: "Inter", fontSize: "1rem" },
-        }}
-      ></Toaster>
-      <div className="heart-bg w-12 h-12 ">
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.9 }}
-          transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          className={` heart-icon w-12 h-12 rounded-full border-zinc-800 border-[0.05rem] bg-[#000000] ${
-            liked ? "liked" : ""
-          }`}
-          onClick={toggleDisplay}
-        ></motion.div>
-      </div>
+    <div className="heart-bg w-12 h-12 ">
+      <motion.div
+        whileHover={{ scale: 1.2 }}
+        whileTap={{ scale: 0.9 }}
+        transition={{ type: "spring", stiffness: 400, damping: 17 }}
+        className={` heart-icon w-12 h-12 rounded-full border-zinc-800 border-[0.05rem] bg-[#000000] ${
+          liked ? "liked" : ""
+        }`}
+        onClick={toggleDisplay}
+      ></motion.div>
     </div>
   );
 };
