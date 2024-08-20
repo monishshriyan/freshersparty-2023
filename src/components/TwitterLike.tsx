@@ -43,7 +43,7 @@ const TwitterLike = () => {
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 400, damping: 17 }}
-          className={` heart-icon w-12 h-12 rounded-full border-zinc-800 border-[0.05rem] bg-[#000000] ${
+          className={` heart-icon w-12 h-12 rounded-full  border-[0.05rem] bg-[#191919] ${
             liked ? "liked" : ""
           }`}
           onClick={toggleDisplay}
