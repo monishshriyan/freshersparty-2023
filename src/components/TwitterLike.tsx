@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./TwitterLike.css";
-import { toast, Toaster } from "sonner";
+import { toast } from "sonner";
 import { motion } from "framer-motion";
 
 const TwitterLike = () => {
