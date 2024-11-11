@@ -39,7 +39,7 @@ export function RulesAlert() {
               toast("Sed, you're missing out on the fun 🥲");
             }}
           >
-            Hell nah
+            Nope 🙂‍↔️
           </AlertDialogCancel>
           <AlertDialogAction
             onClick={() => {
