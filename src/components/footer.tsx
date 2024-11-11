@@ -1,5 +1,3 @@
-import React from "react";
-
 function Footer() {
   return (
     <p className="h-full flex items-center justify-center z-20">
