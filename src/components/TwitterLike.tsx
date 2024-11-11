@@ -10,6 +10,7 @@ const TwitterLike = () => {
   const toggleDisplay = () => {
     if (likeCount === 0) {
       setLikeCount((prevCount) => {
+        navigator.vibrate(200);
         const newCount = prevCount + 1;
         toast.success(`Thanks! you liked my work. (＾▽＾)`, {
           style: { fontFamily: "Inter", fontSize: "1rem" },

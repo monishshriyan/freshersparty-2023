@@ -8,6 +8,7 @@ import Marquee from "react-fast-marquee";
 import { ThemeProvider } from "./components/ui/theme-provider";
 import RulesAlert from "./components/RulesAlert";
 import { motion } from "framer-motion";
+import Footer from "@/components/footer";
 
 const App = () => {
   return (
@@ -59,6 +60,7 @@ const App = () => {
             <TwitterLike />
           </motion.div>
         </div>
+        <Footer />
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
